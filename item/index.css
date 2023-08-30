@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Alinea el logo a la izquierda y el menú a la derecha */
+    align-items: center;
+    background-color: #30343F;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-logo img {
+    width: 250px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    padding-left: 15px;
+}
+
+.container-lista {
+    text-decoration: none;
+
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    gap:  60px;
+    margin-right: 100px;
+    padding: 0;
+}
+
+
+.container-item a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #FFFFFF; /* Cambia el color del texto a negro */
+    
+}
+.container-item a:hover {
+    border-radius: 10px 20px 30px 40px; /* Valores pueden variar */
+    color:#FF3333; /* Cambia el color del texto al pasar el cursor sobre ellos */
+  }
+
+header {
+    text-align: center;
+}
+
+.img-yoda{
+    width: 550px;
+    height: 550px;
+}
+.form-add {
+    width: 342px;
+    height: 37px;
+    display: flex;
+  
+
+  }
+  
+  .add-item {
+    display: flex;
+    flex-direction: row; /* Alinear elementos en fila */
+    align-items: center;
+  }
+
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px; /* Espacio vertical entre botones */
+    margin-right: 10px; /* Espacio a la derecha de los botones */
+    margin-left: 10px;
+  }
+  
+  .add-carrito{
+    cursor: pointer;
+}
+    .cantidad{
+    width: 60px;
+ }
+
+.mas{
+    border: none;
+
+    font-size:16px;
+    color: #FFFFFF;
+    background-color: #4F4F4F;
+    ;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+ width: 18px;
+ 
+    height: 16px;
+    cursor: pointer;
+}
+.menos{
+    border: none;
+    font-size:16px;
+    color: #FFFFFF;
+    background-color: #4F4F4F;
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
+.card-yoda{
+    display: flex;
+}
+.metodos-pago
+{
+
+    color: #1D84B5;
+}
+.add-carrito{
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF3333;
+    
+    width: 171px;
+    height: 36px;
+}
+.cantidad{
+    border: 0.5px solid #C9C9C9 ;
+       font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 32px;
+}
+p-yoda{
+    font-size: 16px;
+}
+.product-description{
+    margin-top: 100px;
+}
+.h1-yoda{
+    margin-bottom: -30px;}
+.h2-yoda{
+    
+    font-size: 38px;
+}
+.p-description-yoda{
+
+    font-size: 24px;
+    width: 570px;
+    height: 58px;
+}
+.precio{
+    margin-bottom: 25px;
+    font-size: 38px;
+}
+
+
+  .container-item {
+    /* Estilos normales del elemento aquí */
+    transition: box-shadow 0.5s, color 0.9s ; /* Agregamos transiciones suaves */
+  }
+  
+  .container-item:hover {
+    border-radius: 10px 10px 10px 10px; /* Redondeo al pasar el cursor */
+    color: #FF3333; /* Cambio de color de texto al pasar el cursor */
+    box-shadow:1px 1px 1px 2px rgba(0, 0, 0, 0.3); /* Agregamos un box-shadow suave */
+  }
+
+  .tricard{
+    display: flex;
+  }
+  .img-star-wars{
+    width: 358px;
+  }
+  .productos-relacionados h1{
+    font-size: 36px;
+  }
+  .productos-relacionados{
+    margin-bottom: 100px;
+    color:#30343F;
+    margin-left: 150px;
+  }
+  .btn-red{
+    border: none;
+    height: 25px;
+    width: 80px;
+    margin-left: 270px;
+color: #FFFFFF;
+    background-color: #FF3333;
+  }
+  .list-description h5 , p , h6{
+ margin-top: -10px;
+  } 
+.product-description h2, p{
+color: #30343F;
+}
+
+.footer-description{
+    display: flex;
+background-color: aqua;}
+
+.menu-footer{
+    
+    background-color: #30343F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.menu-footer p{
+    color:#FFFFFF;
+}
+
+
+
+.lista-footer li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(253, 253, 253); /* Cambia el color del texto a negro */
+}
+
+.lista-footer {
+    list-style-type: none;
+
+}
+.derechos{
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.img-f{
+    width: 100px;
+    padding-right: 50px;
+}
+.list-description h6{
+    color: #1D84B5;
+}

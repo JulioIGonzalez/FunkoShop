@@ -1,0 +1,178 @@
+
+body {
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Alinea el logo a la izquierda y el menú a la derecha */
+    background-color: #30343F;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-logo img {
+    width: 250px; 
+    height: auto;
+    padding-left: 15px;
+}
+.container-lista {
+    text-decoration: none;
+
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    gap:  50px;
+    margin-right: 100px;
+    padding: 0;
+}
+.container-item a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(255, 255, 255);
+    
+}
+.container-item a:hover {
+    color:#afafaf6b; /* Cambia el color del texto al pasar el cursor sobre ellos */
+  }
+.img-star-wars{
+    width: 250px;
+}
+.tricard{
+    display:flex;
+}
+.cuerpo{
+    display: flex;
+}
+fieldset{
+    border: none;
+}
+#buscar{
+height: 22px; 
+width: 185px;
+}
+#ordenar-por{
+    height:25px;
+    width: 190px;
+}
+.min{
+    width: 45px;
+}
+.max{
+    width: 45px;
+}
+.forms{
+    margin: 50px 50px 50px 50px  ;
+}
+.list-description {
+    margin-bottom: 10px; /* Ajusta este valor según tus necesidades */
+  }
+
+  .list-description p,
+  .list-description h5,
+  .list-description h6 {
+    margin: 5px 0; /* Ajusta estos valores según tus necesidades */
+  }
+
+  .list-description h6{
+    color: #1D84B5;
+;
+  }
+  .cuerpo-items{
+    margin-top: 45px;
+  }
+  .btn-red{
+    height: 25px;
+    width: 80px;
+    margin-left: 200px;
+color: white;
+    background-color: #FF3333;
+  }
+
+
+.btn-1{
+    
+    border: none;
+
+    width: 44px;
+    height:44px;
+
+color: white;
+    background-color: #919EAB;
+    ;
+
+  }
+  .btn-2{
+    
+    width: 44px;
+    height:44px;
+    color: #FF3333;
+    border-color: #FF3333;
+  }
+  .btn-3, .btn-4, .btn-5, .btn-6, .btn-7 , .btn-8{
+    border: none;
+
+    width: 44px;
+    height:44px;
+color: #212B36;
+  }
+.btns{
+    align-items:flex-end;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 150px;  }
+  
+  .btns {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre botones */
+  }
+  
+  /* Estilos para los botones */
+  .btns button {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.footer-description{
+    display: flex;
+background-color: aqua;}
+
+.menu-footer{
+    
+    background-color: #333;
+    color: #f7f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+
+
+.lista-footer li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(253, 253, 253); /* Cambia el color del texto a negro */
+}
+
+.lista-footer {
+    list-style-type: none;
+
+}
+.derechos{
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.img-f{
+    width: 100px;
+    padding-right: 50px;
+}
+.list-description h6{
+    color: #1D84B5;
+}

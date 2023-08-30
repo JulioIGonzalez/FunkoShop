@@ -1,0 +1,234 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between; /* Alinea el logo a la izquierda y el menú a la derecha */
+        align-items: center;
+        background-color: #333333;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .img-logo img {
+        width: 250px; /* Ajusta el tamaño del logo según tus necesidades */
+        height: auto;
+        padding-left: 15px;
+    }
+
+    .container-lista {
+        text-decoration: none;
+ 
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        gap:  60px;
+        margin-right: 100px;
+        padding: 0;
+    }
+
+
+    .container-item a {
+        text-decoration: none; /* Elimina el subrayado */
+        color: black; /* Cambia el color del texto a negro */
+        color: rgb(255, 255, 255);
+        
+    }
+    .container-item a:hover {
+        color:#757575; /* Cambia el color del texto al pasar el cursor sobre ellos */
+      }
+
+    header {
+        text-align: center;
+    }
+
+    #banner{
+        height: 250px;
+    }
+    #banner::before {
+
+        content: "";
+        position: absolute;
+        top: 150;
+        left: 0;
+        width: 100%;
+        height: 250px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), url(./multimedia/funkos-banner.webp);
+        filter: blur(3px); /* Ajusta el valor del desenfoque según tus preferencias */
+        z-index:-1; /* Mover el seudoelemento detrás del contenido real */
+    }
+ 
+.card-shop{
+  
+
+    color: aliceblue;
+    width: 350px;
+padding-left: 50px;
+    padding-top: 50px;
+}
+
+.banner{
+    margin-bottom: 150px;
+}
+
+
+.card-title-banner{
+    font-size: 30px;
+    margin-top:0px;
+}
+
+.btn-shop{
+    box-shadow: 0px 1px 6px 2px #afafaf6b;
+}
+.btn-card-shop button {
+    border-radius: 120px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .btn-card-shop button:hover {
+    color: white;
+    
+    background-color: #241f1fc5;
+  }
+.card-p-banner{
+    margin-top:0px;
+}
+
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-description {
+ 
+padding-left: 300px;        
+}
+
+
+
+.card-img {
+    display: flex;
+    justify-content: start-end; /* Alinea la imagen a la derecha */
+    align-items: center;
+}
+
+.img-yoda {
+    width: 350px;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+}
+
+.btn-card-item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    background-color: #333;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+.card-content{
+    width: 450px;
+    margin-bottom: 25px;
+    border-bottom: #FF3333 solid 3px;
+
+}
+
+.img-vulpix{
+    padding-left: 250px;
+    width: 350px;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+
+}
+
+
+
+.img-soldier{
+    margin-top: 5px ;
+    width: 250px;
+}
+
+.btn-red{
+    color: white;
+    margin-left: 200px;
+    background-color: #FF3333;
+    width: 80px;
+    height: 25px;
+}
+.list-description{
+    font-size: smaller;
+    
+}
+.card-lanzamientos{
+    letter-spacing: 0px;
+    margin-left: 50px;
+    
+}
+
+
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+
+    padding-top: 0;
+    padding-left: 30px;
+padding-bottom: 4px;
+    margin-left: 50px;
+    font-size: 18px;
+    width: 300px;
+    text-align:justify
+}
+.card-funko{
+    line-height: 1px;   
+    justify-content: center;
+}
+#lanzamientos{
+    margin-left: 180px;
+
+}
+
+.footer-description{
+    display: flex;
+background-color: aqua;}
+
+.menu-footer{
+    
+    background-color: #333;
+    color: #f7f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+
+
+.lista-footer li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(253, 253, 253); /* Cambia el color del texto a negro */
+}
+
+.lista-footer {
+    list-style-type: none;
+
+}
+.derechos{
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.img-f{
+    width: 100px;
+    padding-right: 50px;
+}
+.list-description h6{
+    color: #1D84B5;
+}
