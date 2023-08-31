@@ -298,7 +298,7 @@ border-color: #FF3333;
         .carrito-h1{
             margin: 0%;
             display: flex;
-            justify-content: flex-end;
+            justify-content: first baseline;
         }
         .red-line-2 {
             width: 100%;
@@ -310,10 +310,11 @@ border-color: #FF3333;
         margin-right: 120px;
         margin-bottom: 15px;
        }
-       .container-btn-pagar{
        
-margin-left: 727px;
+.container-btn-pagar{
+       
         display: flex;
+        flex-direction: row-reverse;
         
        }
 
@@ -326,12 +327,12 @@ margin-left: 727px;
         .btn-pagar{
             cursor: pointer;
             font-size: 24px;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             margin-top: 25px;
             border-radius: 5px;
             border: none;
             background-color: #FF3333;
             color: #f7f2f2;
             height: 50px;
-            width: 525px;
+            width: 500px;
         }

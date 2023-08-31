@@ -9,7 +9,7 @@
         display: flex;
         justify-content: space-between; /* Alinea el logo a la izquierda y el menú a la derecha */
         align-items: center;
-        background-color: #333333;
+        background-color: #30343F;
         padding-left: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -52,15 +52,14 @@
     }
     #banner::before {
 
-        content: "";
-        position: absolute;
-        top: 150;
-        left: 0;
+        content: "FONDO";
+        position:absolute;
         width: 100%;
         height: 250px;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), url(./multimedia/funkos-banner.webp);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), url(/assets/funkos-banner.webp);
         filter: blur(3px); /* Ajusta el valor del desenfoque según tus preferencias */
         z-index:-1; /* Mover el seudoelemento detrás del contenido real */
+   ;
     }
  
 .card-shop{
